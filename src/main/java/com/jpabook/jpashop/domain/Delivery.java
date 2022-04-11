@@ -22,7 +22,7 @@ public class Delivery {
     @Embedded
     private Address address;
 
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.STRING) //반드시 STRINGd
     private DeliveryStatus status; //READY, COMP
 
 }
